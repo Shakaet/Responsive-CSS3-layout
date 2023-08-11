@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container{
+            border:2px dotted blue;
+            display: flex;
+            height: 500px;
+            justify-content:center;
+            align-items:center;
+            flex-direction:row;
+            flex-wrap: nowrap;
+            flex-grow: initial;
+
+        }
+        .box{
+            font-size: 3ex;
+            font-weight: 700;
+            height:150px;
+            width: 150px;
+            border:2px dashed peru
+            
+        }
+        a{
+            text-decoration: none;
+            color:black;
+            margin-left: 20px;
+            font-size: 40px;
+           color: red;
+           font-weight: 700;
+           background-color: beige;
+        }
+
+        a:hover{
+
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+          
+        <nav>
+            
+            <a href="login2.html">Home</a>
+            <a href="">Dashboard</a>
+            <a href="flexbox1.html">Inventory</a>
+            <a href=""></a>
+
+
+        </nav>
+
+
+
+    </header>
+
+    <h1>Explore Responsive</h1>
+
+    <div class="container">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        
+    </div>
+    
+</body>
+</html>
